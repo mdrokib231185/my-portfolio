@@ -17,9 +17,10 @@ const App = () => {
       <About></About>
       <Experience></Experience>
       <Services></Services>
+      <Portfolio></Portfolio>
       <Testimonial></Testimonial>
       <Contract></Contract>
-      <Portfolio></Portfolio>
+       
       <Footer></Footer>
     </>
   )

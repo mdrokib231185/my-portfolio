@@ -36,7 +36,7 @@
 }
 @media screen and (max-width: 1024px) {
       .experience-container{
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr ;
       }
 }
 @media screen and (max-width: 600px) {

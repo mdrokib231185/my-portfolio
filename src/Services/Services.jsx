@@ -1,12 +1,13 @@
 import React from "react";
 import { BsPatchCheck } from "react-icons/bs";
+import './Services.css'
 const Services = () => {
   return (
     <section id="services">
       <h5>What I Offer</h5>
       <h2>Services</h2>
-              <div className="container service-container">
-                    {/* UI/Ux design */}
+      <div className="container service-container">
+        {/* UI/Ux design */}
         <article className="service">
           <div className="service-head">
             <h3>UI/UX Design</h3>
@@ -52,6 +53,11 @@ const Services = () => {
               <BsPatchCheck className="service-list-icon" />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </li>
+            
+            <li>
+              <BsPatchCheck className="service-list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </li>
             <li>
               <BsPatchCheck className="service-list-icon" />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
@@ -62,10 +68,10 @@ const Services = () => {
             </li>
           </ul>
         </article>
-
+        {/* problem trobuleshoot */}
         <article className="service">
           <div className="service-head">
-            <h3>UI/UX Design</h3>
+            <h3>Problem Troubleshot</h3>
           </div>
           <ul className="service-list">
             <li>

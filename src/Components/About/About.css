@@ -59,10 +59,10 @@
       color: var(--color-light);
 }
 
-@media screen and(max-width: 1024px) {
+@media screen and (max-width: 1024px) {
       .about-container{
-            grid-template-columns: 1fr;
-            gap: 0;
+            grid-template-columns: 2fr;
+            
       }
       
 }

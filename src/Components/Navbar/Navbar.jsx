@@ -9,7 +9,7 @@ import './Navbar.css'
 
 
 const Navbar = () => {
-      const [active, setActive] = useState('#')
+      
       return (
             <nav>
                   <a href="#"><AiOutlineHome/></a>
