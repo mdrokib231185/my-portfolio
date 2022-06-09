@@ -3,6 +3,8 @@ import './Portfolio.css'
 import img1 from "../../assests/rokib.jpg";
 import img2 from "../../assests/mt1.png";
 import img3 from "../../assests/banner02.jpg";
+import img4 from "../../assests/Screenshot_40.png";
+import img5 from "../../assests/Screenshot_1.png";
 
 
 const Portfolio = () => {
@@ -122,16 +124,14 @@ const Portfolio = () => {
         </article>
         <article className="portfolio-item">
           <div className="portfolio-item-image">
-            <img src={img3} alt="" />
+            <img src={img5} alt="" />
           </div>
           <h3>React Router </h3>
           <p> Its is a React Router website</p>
           <p> Review section add</p>
           <p> Dashboard add chart add </p>
           <p>Blog Section add</p>
-          <p>
-            Technology used: React Js,  Bootstrap ,React chart HTML, CSS3
-          </p>
+          <p>Technology used: React Js, Bootstrap ,React chart HTML, CSS3</p>
           <div className="portfolio-item-cta">
             <a
               href="https://github.com/mdrokib231185/react-router"
@@ -154,16 +154,14 @@ const Portfolio = () => {
         </article>
         <article className="portfolio-item">
           <div className="portfolio-item-image">
-            <img src={img3} alt="" />
+            <img src={img4} alt="" />
           </div>
           <h3>Mobile Phone buy</h3>
           <p> Its is a mobile phone bur website</p>
           <p> Add to cart</p>
           <p> Randomly choice 1 iteams</p>
-          
-          <p>
-            Technology used:  HTML, CSS3, Bootstrap
-          </p>
+
+          <p>Technology used: HTML, CSS3, Bootstrap</p>
           <div className="portfolio-item-cta">
             <a
               href="https://github.com/mdrokib231185/mobile-phone"
