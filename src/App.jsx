@@ -1,5 +1,5 @@
 import React from 'react'
-import Contract from './Components/Contract/Contract'
+import Contact from './Components/Contact/Contact'
 import Header from './Components/Header/Header'
 import Navbar from './Components/Navbar/Navbar'
 import Portfolio from './Components/Portfolio/Portfolio'
@@ -19,7 +19,7 @@ const App = () => {
       <Services></Services>
       <Portfolio></Portfolio>
       <Testimonial></Testimonial>
-      <Contract></Contract>
+      <Contact></Contact>
        
       <Footer></Footer>
     </>

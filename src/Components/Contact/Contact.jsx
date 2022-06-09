@@ -1,5 +1,5 @@
 import React from 'react';
-import './Contract.css'
+import './Contact.css'
 
 const Contract = () => {
       return (
