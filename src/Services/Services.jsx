@@ -4,7 +4,7 @@ import './Services.css'
 const Services = () => {
   return (
     <section id="services">
-      <h5>What I Offer</h5>
+      <h5>What I Do</h5>
       <h2>Services</h2>
       <div className="container service-container">
         {/* UI/Ux design */}
@@ -15,24 +15,28 @@ const Services = () => {
           <ul className="service-list">
             <li>
               <BsPatchCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Website Ui/Ux Design expert</p>
             </li>
             <li>
               <BsPatchCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Design Quality is very important for every website, </p>
             </li>
             <li>
               <BsPatchCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>
+                make sure 100% quality & satisfaction before delivering the
+                project.
+              </p>
             </li>
             <li>
               <BsPatchCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>I can create any type of website for your business</p>
             </li>
             <li>
               <BsPatchCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Provide unique, clean & awesome graphical design interface.</p>
             </li>
+           
           </ul>
         </article>
         {/* web Development  */}
@@ -43,20 +47,20 @@ const Services = () => {
           <ul className="service-list">
             <li>
               <BsPatchCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Any website Design and development</p>
             </li>
             <li>
               <BsPatchCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Full stack website developmnet</p>
             </li>
             <li>
               <BsPatchCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>React Website development</p>
             </li>
-            
+
             <li>
               <BsPatchCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Unique website design and development</p>
             </li>
             <li>
               <BsPatchCheck className="service-list-icon" />

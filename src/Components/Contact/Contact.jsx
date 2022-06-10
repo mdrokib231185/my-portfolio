@@ -6,6 +6,8 @@ import { RiWhatsappLine } from "react-icons/ri";
 import { useRef } from "react";
 import emailjs from 'emailjs-com'
 import { toast } from "react-toastify";
+import MessengerCustomerChat from "react-messenger-customer-chat";
+
 
 const Contract = () => {
   const form = useRef()
@@ -90,6 +92,12 @@ const Contract = () => {
           </button>
         </form>
       </div>
+      <MessengerCustomerChat
+        pageId="<107109021639471>"
+        appId="<APP_ID>"
+        
+      />
+      , ,
     </section>
   );
 };

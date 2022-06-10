@@ -1,44 +1,4 @@
-import React from 'react'
-import Contact from './Components/Contact/Contact'
-import Header from './Components/Header/Header'
-
-import Portfolio from './Components/Portfolio/Portfolio'
-import Testimonial from './Components/Testimonial/Testimonial'
-import Services from './Services/Services'
-import About from './Components/About/About'
-import Footer from './Components/Footer/Footer'
-import Experience from './Components/Experience/Experience'
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import ParticlesBackground from './Components/ParticlesBackground'
-import NavbarMenu from './Components/Header/NavbarMenu'
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-
-
-
-
-
-const App = () => {
-   const particlesInit = async (main) => {
-     console.log(main);
-
-     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-     // starting from v2 you can add only the features you need reducing the bundle size
-     await loadFull(main);
-   };
-
-   const particlesLoaded = (container) => {
-     console.log(container);
-   };
-  return (
-    <>
-      <Particles
-        id="tsparticles"
-        init={particlesInit}
-        loaded={particlesLoaded}
-        options={{
+const particlesconfig = {
   autoPlay: true,
   background: {
     color: {
@@ -632,23 +592,5 @@ const App = () => {
   themes: [],
   zLayers: 100,
   emitters: [],
-}}
-      />
-      <NavbarMenu></NavbarMenu>
-      {/* <Navbar></Navbar> */}
-      <Header></Header>
-      <ParticlesBackground />
-      <About></About>
-      <Experience></Experience>
-      <Services></Services>
-      <Portfolio></Portfolio>
-      <Testimonial></Testimonial>
-      <Contact></Contact>
-
-      <Footer></Footer>
-      <ToastContainer />
-    </>
-  );
-}
-
-export default App
+};
+export default particlesconfig
