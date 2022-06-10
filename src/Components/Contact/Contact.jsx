@@ -92,12 +92,7 @@ const Contract = () => {
           </button>
         </form>
       </div>
-      <MessengerCustomerChat
-        pageId="<107109021639471>"
-        appId="<APP_ID>"
-        
-      />
-      , ,
+     
     </section>
   );
 };

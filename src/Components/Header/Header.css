@@ -8,6 +8,29 @@ header{
       height: 100%;
       position: relative;
 }
+.text-h2{
+      width: 0;
+      overflow: hidden;
+      white-space: nowrap;
+      animation: text 6s steps(24) infinite alternate;
+      margin: 0 rem;
+      justify-content: center;
+      margin: 0 24rem;
+      font-size: 1rem;
+      
+}
+
+.name{
+     justify-content: center;
+}
+@keyframes text {
+      0%{
+            width: 0ch;
+      }
+      50%{
+            width: 22ch;
+      }
+}
 .cta{
       margin-top: 2.5rem;
       display: flex;
@@ -47,3 +70,13 @@ header{
       font-weight: 200;
       font-size: 0.9rem;
 } */
+@media screen and (max-width:600px) {
+      .text-h2{
+            margin: 0 3rem;
+      }
+}
+@media screen and (max-width:1024px) {
+      .text-h2{
+            margin: 0 11rem;
+      }
+}
