@@ -34,10 +34,10 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos nulla
-            veritatis, id velit voluptates cumque tempora? Eum quod nam, quo
-            doloremque, dolores veritatis beatae magni, praesentium ex
-            perferendis atque harum!
+            I’m a passionate web designer and web developer. I believe in
+            success through hard work and dedication. I want to join in a
+            professional life to gain exposure, confidence and a sense of
+            achievement.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk{" "}

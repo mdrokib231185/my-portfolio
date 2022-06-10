@@ -8,9 +8,10 @@ import Services from './Services/Services'
 import About from './Components/About/About'
 import Footer from './Components/Footer/Footer'
 import Experience from './Components/Experience/Experience'
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const App = () => {
   return (
-    
     <>
       <Header></Header>
       <Navbar></Navbar>
@@ -20,10 +21,11 @@ const App = () => {
       <Portfolio></Portfolio>
       <Testimonial></Testimonial>
       <Contact></Contact>
-       
+
       <Footer></Footer>
+      <ToastContainer />
     </>
-  )
+  );
 }
 
 export default App
