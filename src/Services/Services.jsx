@@ -36,7 +36,6 @@ const Services = () => {
               <BsPatchCheck className="service-list-icon" />
               <p>Provide unique, clean & awesome graphical design interface.</p>
             </li>
-           
           </ul>
         </article>
         {/* web Development  */}
@@ -64,11 +63,15 @@ const Services = () => {
             </li>
             <li>
               <BsPatchCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Any full Stack Project complete few days after order</p>
             </li>
             <li>
               <BsPatchCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>I have enough Knowledge front end development</p>
+            </li>
+            <li>
+              <BsPatchCheck className="service-list-icon" />
+              <p>I have a Good Experience Back End development</p>
             </li>
           </ul>
         </article>
@@ -80,23 +83,27 @@ const Services = () => {
           <ul className="service-list">
             <li>
               <BsPatchCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>I am expert any problem solution</p>
             </li>
             <li>
               <BsPatchCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Expert in debug or fixing Problem</p>
             </li>
             <li>
               <BsPatchCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Troubleshooting, Analyzing,Brainstorming </p>
             </li>
             <li>
               <BsPatchCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Critical thinking, Decision making</p>
             </li>
             <li>
               <BsPatchCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Designing ,Drawing conclusions</p>
+            </li>
+            <li>
+              <BsPatchCheck className="service-list-icon" />
+              <p>Test development</p>
             </li>
           </ul>
         </article>
