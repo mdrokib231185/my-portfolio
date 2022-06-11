@@ -5,6 +5,8 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareEdit } from "react-icons/bi";
+import { SiBloglovin } from 'react-icons/si'
+import { Link } from "react-router-dom";
 import './Nav.css'
 
 const NavbarMenu = () => {
@@ -24,6 +26,9 @@ const NavbarMenu = () => {
           </a>
           <a href="#contact">
             <BiMessageSquareEdit />
+          </a>
+          <a href="#blogs">
+            <SiBloglovin />
           </a>
         </nav>
       );

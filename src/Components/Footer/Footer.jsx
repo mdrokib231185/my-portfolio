@@ -45,7 +45,8 @@ const Footer = () => {
             </a>
           </div>
           <div className="footer-copyright">
-                        <small>&copy; Md Rokib hasan. All Right Reserved {new Date().getFullYear() }</small>
+            <small>&copy; Md Rokib hasan. All Right Reserved {new Date().getFullYear()}</small>
+            <p>Dinajpur, Rangpur, Bangladesh</p>
           </div>
         </footer>
       );

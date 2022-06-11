@@ -15,6 +15,8 @@ import NavbarMenu from './Components/Header/NavbarMenu'
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import MessengerCustomerChat from "react-messenger-customer-chat";
+import { Routes, Route } from "react-router-dom";
+import Blog from './Components/Blog'
 
 
 
@@ -645,7 +647,7 @@ const App = () => {
       <Portfolio></Portfolio>
       <Testimonial></Testimonial>
       <Contact></Contact>
-
+      <Blog></Blog>
       <Footer></Footer>
       <MessengerCustomerChat
         pageId="107580278651104"
